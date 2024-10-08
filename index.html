@@ -23,33 +23,33 @@
 
 <body>
     <!-- header section start -->
-    <header class="sticky top-0 bg-white">
+    <header class="sticky top-0 bg-white bg-opacity-30 backdrop-blur-md border-b-2">
         <!-- navbar start -->
-        <nav class="bg-[#F9F7F3] py-4 lg:py-8 ">
+        <nav class="bg-[#F9F7F3]  py-3 lg:py-6 ">
             <div class="container mx-auto px-3 sm:px-7 md:px-15 lg:px-20 flex justify-between">
                 <!-- blog page btn -->
                 <div class="blog-page">
                     <button id="blog-btn"
-                        class="btn bg-lime-400 sm:px-5 lg:px-10 font-semibold sm:text-base lg:text-xl ">Blog</button>
+                        class="btn bg-lime-400 px-5 lg:px-10 font-semibold text-base lg:text-xl ">Blog</button>
                 </div>
                 <!-- logo and website title  -->
                 <div class="flex items-center gap-3">
                     <img src="images/logo.png" alt="">
-                    <h2 class="font-semibold sm:text-base lg:text-xl hidden lg:flex">Donate Bangladesh</h2>
+                    <h2 class="font-semibold text-base lg:text-xl hidden lg:flex">Donate Bangladesh</h2>
                 </div>
                 <!-- Balance  option-->
                 <div class="flex items-center gap-3 cursor-pointer">
                     <img src="images/coin.png" alt="">
-                    <p class="font-medium sm:text-base lg:text-xl opacity-80"><span id="balance">5500</span> BDT</p>
+                    <p class="font-medium text-base lg:text-xl opacity-80"><span id="balance">5500</span> BDT</p>
                 </div>
             </div>
         </nav>
         <!--Option toggle butoon  -->
-        <section class="py-4 lg:py-8 flex justify-center gap-5">
+        <section class="py-3 lg:py-6 flex justify-center gap-5">
             <button id="donate-btn"
-                class=" bg-lime-400 font-semibold border-2 border-lime-400 hover:bg-lime-300 duration-300 ease-in-out  rounded-lg px-5 py-3 sm:text-base lg:text-xl">Donation</button>
+                class=" bg-lime-400 font-semibold border-2 border-lime-400 hover:bg-lime-300 duration-300 ease-in-out  rounded-lg px-5 py-3 text-base lg:text-xl">Donation</button>
             <button id="history-btn"
-                class=" text-gray-500 border-2 font-medium rounded-lg px-5 py-3 sm:text-base lg:text-xl ">History</button>
+                class=" text-gray-500 border-2 border-lime-400 font-medium rounded-lg px-5 py-3 text-base lg:text-xl hover:bg-gray-100">History</button>
         </section>
         <!-- navbar end -->
     </header>
@@ -68,7 +68,7 @@
                         <img src="images/coin.png" alt="">
                         <p class="text-base font-normal"><span id="total-donate-1">200</span> BDT</p>
                     </div>
-                    <h2 id="noakhali-ttl" class="font-bold sm:text-base lg:text-xl">Donate for Flood at Noakhali,
+                    <h2 id="noakhali-ttl" class="font-bold text-base lg:text-xl">Donate for Flood at Noakhali,
                         Bangladesh</h2>
                     <p class="text-xs lg:text-base font-light text-black ">The recent floods in Noakhali have
                         caused
@@ -82,7 +82,7 @@
                     <input id="noakhali-donate-input" type="number" placeholder="Write Donation Amount"
                         class="input input-bordered w-full " required />
                     <button id="noakhali-donate-btn"
-                        class="bg-lime-400 font-semibold  rounded-lg px-5 py-3 sm:text-base lg:text-xl w-full hover:bg-lime-300 duration-300 ease-in-out">Donate
+                        class="bg-lime-400 font-semibold  rounded-lg px-5 py-3 text-base lg:text-xl w-full hover:bg-lime-300 duration-300 ease-in-out">Donate
                         Now</button>
                 </div>
             </div>
@@ -96,7 +96,7 @@
                         <img src="images/coin.png" alt="">
                         <p class="text-base font-normal"><span id="total-donate-2">600</span> BDT</p>
                     </div>
-                    <h2 id="feni-ttl" class="font-bold sm:text-base lg:text-xl">Donate for Flood Relief in
+                    <h2 id="feni-ttl" class="font-bold text-base lg:text-xl">Donate for Flood Relief in
                         Feni,Bangladesh</h2>
                     <p class="text-xs lg:text-base font-light text-black ">The recent floods in Feni have devastated
                         local communities, leading to severe disruption and loss. Your generous
@@ -110,7 +110,7 @@
                     <input id="feni-donate-input" type="number" placeholder="Write Donation Amount"
                         class="input input-bordered w-full " required />
                     <button id="feni-donate-btn"
-                        class="bg-lime-400 font-semibold  rounded-lg px-5 py-3 sm:text-base lg:text-xl w-full hover:bg-lime-300 duration-300 ease-in-out">Donate
+                        class="bg-lime-400 font-semibold  rounded-lg px-5 py-3 text-base lg:text-xl w-full hover:bg-lime-300 duration-300 ease-in-out">Donate
                         Now</button>
                 </div>
             </div>
@@ -124,7 +124,7 @@
                         <img src="images/coin.png" alt="">
                         <p class="text-base font-normal"><span id="total-donate-3">2400</span> BDT</p>
                     </div>
-                    <h2 id="quota-ttl" class="font-bold sm:text-base lg:text-xl">Aid for Injured in the Quota Movement
+                    <h2 id="quota-ttl" class="font-bold text-base lg:text-xl">Aid for Injured in the Quota Movement
                     </h2>
                     <p class="text-xs lg:text-base font-light text-black ">The recent Quota movement has resulted in
                         numerous injuries and significant hardship for many individuals. Your support
@@ -139,14 +139,30 @@
                     <input id="quota-donate-input" type="number" placeholder="Write Donation Amount"
                         class="input input-bordered w-full " required />
                     <button id="quota-donate-btn"
-                        class="bg-lime-400 font-semibold  rounded-lg px-5 py-3 sm:text-base lg:text-xl w-full hover:bg-lime-300 duration-300 ease-in-out">Donate
+                        class="bg-lime-400 font-semibold  rounded-lg px-5 py-3 text-base lg:text-xl w-full hover:bg-lime-300 duration-300 ease-in-out">Donate
                         Now</button>
                 </div>
             </div>
         </section>
+        <!-- modal section start -->
+        <dialog id="my_modal_1" class="modal">
+            <div class="modal-box flex flex-col items-center justify-center space-y-3 lg:space-y-5">
+                <h2 class="text-2xl lg:text-4xl font-bold"> Congrats!</h2>
+                <img class="w-1/12" src="images/coin.png" alt="">
+                <p class="text-xs lg:text-base font-normal">You Donate for humankind</p>
+                <h4 class="text-xl lg:text-2xl font-bold">Successfully</h4>
+                <div class="modal-action">
+                    <form method="dialog">
+                        <!-- if there is a button in form, it will close the modal -->
+                        <button class="btn">Close Confirmation</button>
+                    </form>
+                </div>
+            </div>
+        </dialog>
+        <!-- modal section End -->
         <!-- donate Section end -->
         <!-- history section start -->
-        <section id="history-container" class="hidden">
+        <section id="history-container" class="hidden my-5 ">
 
         </section>
         <!-- history section end-->
@@ -158,8 +174,8 @@
     </footer>
     <!-- footer section end -->
 
-    <script src="js/script.js"></script>
     <script src="js/utilities.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
