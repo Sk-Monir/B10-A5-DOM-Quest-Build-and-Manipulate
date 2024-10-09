@@ -20,5 +20,5 @@ makeDonate('noakhali-donate-btn', 'noakhali-donate-input', 'total-donate-1', 'ba
 //Add Donate at fani
 makeDonate('feni-donate-btn', 'feni-donate-input', 'total-donate-2', 'balance', 'feni-ttl');
 
-//Add Donate at Noakhali
+//Add Donate at quota movement
 makeDonate('quota-donate-btn', 'quota-donate-input', 'total-donate-3', 'balance', 'quota-ttl');
