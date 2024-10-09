@@ -1,3 +1,7 @@
+// switch page blog.html
+document.getElementById('blog-btn').addEventListener('click', function () {
+    window.location.href = './blog.html';
+})
 // toggle the button show and hide option
 document.getElementById('donate-btn').addEventListener('click', function () {
     swapOption('donate-btn');

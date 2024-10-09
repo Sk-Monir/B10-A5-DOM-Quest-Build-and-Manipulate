@@ -39,6 +39,7 @@ function makeDonate(btn, input, totalDonateAmount, balance, donateTitle) {
     document.getElementById(btn).addEventListener('click', function (event) {
         // event.preventDefault();
         const donateAmount = getInputValueById(input);
+
         // validation
         if (donateAmount <= 0 || isNaN(donateAmount)) {
             alert(`${donateAmount} Is Invalid Amount`);
@@ -51,7 +52,7 @@ function makeDonate(btn, input, totalDonateAmount, balance, donateTitle) {
             alert(`${donateAmount} BDT Is Not Available In Account`);
             return;
         }
-        
+
         // total collection
         const donate = totalDonate + donateAmount;
         document.getElementById(totalDonateAmount).innerText = donate.toFixed(2);
